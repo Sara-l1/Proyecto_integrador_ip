@@ -199,10 +199,11 @@ a:focus {
   border: 1px solid #023b48;
   color: #ffffff;
   margin-right: 10px;
+  border-radius: 5em;
 }
 
 .slider_detail-box .btn-box .btn-1:hover {
-  background-color: transparent;
+  background-color: white;
   color: #023b48;
 }
 
@@ -495,7 +496,7 @@ a:focus {
 .info_items {
   width: 70%;
   margin: 0 auto;
-  display: -webkit-box;
+  display: -wekit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
