@@ -33,7 +33,7 @@ body {
 }
 
 .custom_heading span {
-  color: #21d7ff;
+  color: #023b48;
 }
 
 /*header section*/
@@ -163,7 +163,7 @@ a:focus {
 /*end header section*/
 /* slider section */
 .slider_section {
-  background-image: url(../images/hero.jpg);
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/proyectos-mr.appspot.com/o/2.jpg?alt=media&token=810c83b9-2eb2-4669-80ea-741996d4d1de&_gl=1*79vb0r*_ga*MTExMzMzNDcwMS4xNjk0NTY3MDU2*_ga_CW55HF8NVT*MTY5NzE2MTAxOC44LjEuMTY5NzE2MTU0Ni40NC4wLjA.);
   padding: 6% 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -292,7 +292,7 @@ a:focus {
   width: 110px;
   height: 110px;
   border-radius: 100%;
-  background-color: #18d3ff;
+  background-color: #023b48;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -330,7 +330,7 @@ a:focus {
 }
 
 .gallery-section {
-  background-color: #0dc3ff;
+  background-color:#023b48;
 }
 
 .gallery-section .container {
@@ -432,7 +432,7 @@ a:focus {
 }
 
 .client_section .carousel-indicators li {
-  background-color: #0dc3ff;
+  background-color: #023b48;
 }
 
 .client_section .carousel-indicators .active {
@@ -489,7 +489,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #0dc3ff;
+  background-color: #023b48;
 }
 
 .info_items {
