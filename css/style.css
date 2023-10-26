@@ -222,6 +222,7 @@ a:focus {
 
 .slider_img-box {
   margin-right: 5%;
+  border-radius: 1000px;
 }
 
 .slider_img-box img {
