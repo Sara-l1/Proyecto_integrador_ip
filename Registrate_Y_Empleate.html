@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<script src="https://cdn.tailwindcss.com"></script>
 
 <head>
   <!-- Basic -->
@@ -71,9 +72,6 @@
                 <a class="nav-link" href="contacto.html">Contacto</a>
                 </li>
               </ul>
-              <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-              </form>
             </div>
           </div>
       </div>
@@ -83,40 +81,132 @@
   <!-- end header section -->
   </div>
 
-
   <!-- buy section -->
 
-  <section style="" class="buy_section layout_padding">
-    <div class="container">
-      <h2>
-        REGISTRATE Y EMPLEATE.
-      </h2>
-      <p style="text-align:left;;">
-        <strong>Aquí podras encontras ofertas de trabajo relacionadas con los perfiles de Software de sistemas, Software
-          de aplicación y
-          Software de programación, empresas con alto potencial y reconocidas en la industria.</strong>
-      </p>
-      <p style="text-align: center;"><strong>¡Registrate ahora y conoce!</strong></p>
-      <div class="d-flex justify-content-center">
-        <a href="">
-          REGISTRARSE
-        </a>
+
+  <section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-24 mx-auto lg:py-32">
+      <div class="lg:flex">
+        <div class="lg:w-1/2">
+          <h2>
+            <STRong>REGÍSTRATE Y EMPLEATE.</STRong>
+          </h2>
+          <br>
+          <p style="text-align: initial; text-align: justify;">
+            Aquí podras encontras ofertas de trabajo relacionadas con los perfiles
+            <br> de Software de sistemas, Software de aplicación y Software de <br> programación,
+            empresas con alto potencial y reconocidas en la industria.
+          </p>
+          <h1 class="mt-4 text-2xl font-medium text-gray-800 capitalize lg:text-3xl dark:text-white">
+            login to your account
+          </h1>
+        </div>
+
+        <div class="mt-8 lg:w-1/2 lg:mt-0">
+          <form class="w-full lg:max-w-xl">
+            <div class="relative flex items-center">
+              <span class="absolute">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </span>
+              <input type="text"
+                class="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                placeholder="Nombres">
+              <input type="Nombres"
+                class="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                placeholder="Apellidos">
+            </div>
+
+            <div class="relative flex items-center mt-4">
+              <span class="absolute">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                </svg>
+              </span>
+
+              <input type="Apellidos"
+                class="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                placeholder="Tipo de Documento">
+            </div>
+
+            <div class="relative flex items-center mt-4">
+              <span class="absolute">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                </svg>
+              </span>
+
+              <input type="email"
+                class="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                placeholder="Numero Documento">
+            </div>
+
+            <div class="relative flex items-center mt-4">
+              <span class="absolute">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                </svg>
+              </span>
+
+              <input type="email"
+                class="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                placeholder="Correo Electronico">
+            </div>
+
+            <div class="relative flex items-center mt-4">
+              <span class="absolute">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                </svg>
+              </span>
+
+
+              <input type="password"
+                class="block w-full px-10 py-3 text-gray-700 bg-white border rounded-lg dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                placeholder="Numero de Celular">
+            </div>
+
+            <div class="mt-8 md:flex md:items-center">
+              <button
+                class="w-full px-6 py-3 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg md:w-1/2 hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                Regístrate
+              </button>
+
+              <button
+                class="w-full px-6 py-3 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg md:w-1/2 hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                Iniciar Sesión
+              </button>
+
+              </a>
+            </div>
+          </form>
+        </div>
       </div>
-      <p style="text-align: center;"><strong>Si ya tienes una cuenta ingresa sesión aquí <br>
-        ⬇️</strong></p>
-      <div class="d-flex justify-content-center">
-        <a href="">
-          INICIAR SESIÓN
-        </a>
-      </div>
+      </svg>
+      </a>
     </div>
+    </div>
+    </div>
+
+
   </section>
 
   <!-- end buy section -->
 
   <!-- client section -->
   <section class="client_section layout_padding-bottom">
-    
+
 
   </section>
   <!-- end client section -->
@@ -157,7 +247,7 @@
             </div>
             <div class="detail-box">
               <p>
-                demo@gmail.com
+                IntegralConnecionCompany@gmail.com
               </p>
             </div>
           </div>
@@ -171,8 +261,8 @@
   <!-- footer section -->
   <section class="container-fluid footer_section">
     <p>
-      &copy; 2019 All Rights Reserved By
-      <a href="https://html.design/">Free Html Templates</a>
+      &copy; 2023  Integral Connection Company
+      <a href="https://html.design/"></a>
     </p>
   </section>
   <!-- footer section -->
